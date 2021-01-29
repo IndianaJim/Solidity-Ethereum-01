@@ -35,6 +35,7 @@ contract WorkingWithVariables {
     
     string public myString;
     
+    
     function setMyString(string memory _myString) public {
         myString = _myString;
     }
